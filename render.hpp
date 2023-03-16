@@ -11,7 +11,7 @@ class applicationRender
     int displayMode = GLUT_DOUBLE | GLUT_RGBA;
 
     const int colorDepth = 3;
-    
+    //OpenGL uses a column-major ordering for its matrices and arrays
     uint8_t screenData[32][64][3];
 
     static chip *application;
