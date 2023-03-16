@@ -74,12 +74,12 @@ void applicationRender::reshapeCallback(int width, int height)
 }
 void applicationRender::updateTexture()
 {
-    // The reason why the glTexSubImage2D() function expects the dimensions of the pixel data array to be in the order 
+    // The reason why the glTexSubImage2D() function expects the dimensions of the pixel data array to be in the order
     // [height][width][3] instead of [width][height][3] is because OpenGL uses a column-major ordering for its matrices and arrays.
-    // In column-major ordering, elements of a 2D or 3D array are stored in memory column by column, rather than row by row. 
-    // This means that if you have a 2D array with dimensions [height][width], the elements in each column are stored next to each other 
+    // In column-major ordering, elements of a 2D or 3D array are stored in memory column by column, rather than row by row.
+    // This means that if you have a 2D array with dimensions [height][width], the elements in each column are stored next to each other
     // in memory, rather than the elements in each row.
-    
+
     int height = application->getDisplayHeight();
     int width = application->getDisplayWidth();
     for (int i = 0; i < height; i++)
