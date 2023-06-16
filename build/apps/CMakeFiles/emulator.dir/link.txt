@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/emulator.dir/main.cpp.o -o emulator  -Wl,-rpath,/home/huy/C++/Chip8Emulator/build/src ../src/libchip8.so ../src/librender.so -lOpenGL -lGLU -lglut 

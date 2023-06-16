@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/huy/C++/Chip8Emulator/build/src",
+  "command": "/usr/bin/c++ -Drender_EXPORTS -I/home/huy/C++/Chip8Emulator/include -g -fPIC -std=gnu++11 -o CMakeFiles/render.dir/render/render.cpp.o -c /home/huy/C++/Chip8Emulator/src/render/render.cpp",
+  "file": "/home/huy/C++/Chip8Emulator/src/render/render.cpp"
+},
+{
+  "directory": "/home/huy/C++/Chip8Emulator/build/src",
+  "command": "/usr/bin/c++ -Dchip8_EXPORTS -I/home/huy/C++/Chip8Emulator/include -g -fPIC -std=gnu++11 -o CMakeFiles/chip8.dir/chip8/chip8.cpp.o -c /home/huy/C++/Chip8Emulator/src/chip8/chip8.cpp",
+  "file": "/home/huy/C++/Chip8Emulator/src/chip8/chip8.cpp"
+},
+{
+  "directory": "/home/huy/C++/Chip8Emulator/build/apps",
+  "command": "/usr/bin/c++  -I/home/huy/C++/Chip8Emulator/include -g -std=gnu++11 -o CMakeFiles/emulator.dir/main.cpp.o -c /home/huy/C++/Chip8Emulator/apps/main.cpp",
+  "file": "/home/huy/C++/Chip8Emulator/apps/main.cpp"
+}
+]

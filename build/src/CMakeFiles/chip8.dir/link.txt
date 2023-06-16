@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libchip8.so -o libchip8.so CMakeFiles/chip8.dir/chip8/chip8.cpp.o 

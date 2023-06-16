@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,librender.so -o librender.so CMakeFiles/render.dir/render/render.cpp.o  -lOpenGL -lGLU -lglut 

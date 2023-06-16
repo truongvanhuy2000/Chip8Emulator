@@ -1,8 +1,7 @@
-#ifndef RENDER____H
-#define RENDER____H
+#pragma once
 
 #include <GL/glut.h>
-#include "chip8.hpp"
+#include <chip8/chip8.hpp>
 
 class applicationRender
 {
@@ -41,5 +40,3 @@ public:
     void setupOpenGL(int *argc, char **argv);
     void startRender();
 };
-
-#endif

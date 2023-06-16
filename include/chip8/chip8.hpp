@@ -1,5 +1,4 @@
-#ifndef CHIP8_HPP
-#define CHIP8_HPP
+#pragma once
 #include <stdint.h>
 
 class chip
@@ -7,7 +6,7 @@ class chip
 public:
     virtual ~chip() {}
     virtual void emulateCycle() = 0;
-    virtual bool loadApplication(char *fileName) = 0;
+    virtual bool loadApplication(const char *fileName) = 0;
     virtual int getSize() = 0;
     virtual bool isDrawn() = 0;
     virtual void setDrawnFlag(int value) = 0;
@@ -95,6 +94,5 @@ public:
         key[pos] = value;
     }
     void emulateCycle() override;
-    bool loadApplication(char *fileName) override;
+    bool loadApplication(const char *fileName) override;
 };
-#endif

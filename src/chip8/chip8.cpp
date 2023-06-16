@@ -1,4 +1,4 @@
-#include "chip8.hpp"
+#include <chip8/chip8.hpp>
 #include <cstring>
 #include <iostream>
 #include <fstream>
@@ -48,7 +48,7 @@ void chip8::initialize()
 }
 
 // Load the game to memory
-bool chip8::loadApplication(char *fileName)
+bool chip8::loadApplication(const char *fileName)
 {
     initialize();
     std::cout << "Loading: " << fileName << std::endl;

@@ -1,0 +1,9 @@
+/home/huy/C++/Chip8Emulator/build/CMakeFiles/edit_cache.dir
+/home/huy/C++/Chip8Emulator/build/CMakeFiles/rebuild_cache.dir
+/home/huy/C++/Chip8Emulator/build/src/CMakeFiles/render.dir
+/home/huy/C++/Chip8Emulator/build/src/CMakeFiles/chip8.dir
+/home/huy/C++/Chip8Emulator/build/src/CMakeFiles/edit_cache.dir
+/home/huy/C++/Chip8Emulator/build/src/CMakeFiles/rebuild_cache.dir
+/home/huy/C++/Chip8Emulator/build/apps/CMakeFiles/emulator.dir
+/home/huy/C++/Chip8Emulator/build/apps/CMakeFiles/edit_cache.dir
+/home/huy/C++/Chip8Emulator/build/apps/CMakeFiles/rebuild_cache.dir
