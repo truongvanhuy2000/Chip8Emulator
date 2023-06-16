@@ -133,9 +133,6 @@
 			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "resources/pong2.c8"
-		},
-		{
 			"path" : "src/CMakeLists.txt"
 		},
 		{

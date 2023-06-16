@@ -21,4 +21,4 @@ find_package(GLUT REQUIRED)
 # Force the generation of a compile_commands.json file to provide autocompletion for IDEs
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE CACHE BOOL "" FORCE)
 
-configure_file(${CMAKE_SOURCE_DIR}/resources/pong2.c8 ${CMAKE_BINARY_DIR}/resources/pong2.c8 COPYONLY)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/resources DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
