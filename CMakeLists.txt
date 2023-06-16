@@ -9,7 +9,6 @@ project(Chip8Interpreter
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(OPENGL_INCLUDE_DIRS )
 # Process the src and apps directories
 add_subdirectory(src)
 add_subdirectory(apps)
